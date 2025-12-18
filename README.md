@@ -1,1 +1,5 @@
-# NYU---Data-Bootcamp---Final
+# NYU---Data-Bootcamp---
+
+This project builds on our midterm analysis of how macroeconomic forces shape the U.S. housing market and real‑estate sector by shifting from descriptive analysis to predictive modeling. Using monthly data from 2015 to 2025, we combine stock returns for real‑estate‑related equities (ITB, PLD, BAC, EQIX, O) with macroeconomic indicators from FRED (inflation, unemployment, and interest rates) and housing price data from the FHFA. We examine whether these variables can predict the direction of ITB’s next‑month return.
+
+Exploratory analysis reveals strong co‑movement among real‑estate stocks and clear long‑run macroeconomic relationships, but highly volatile and noisy monthly returns. A baseline and logistic regression both achieve an accuracy of 0.4167, indicating limited linear predictive signal. Non‑linear models improve performance, with K‑Nearest Neighbors reaching approximately 67% accuracy, while Random Forests provide modest gains. Overall, the results suggest that while macroeconomic conditions shape long‑term trends, short‑term stock return direction remains difficult to predict due to market noise and information efficiency.
